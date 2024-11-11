@@ -59,6 +59,7 @@ extern "C"
     int start;
     int end;
     pthread_t tid;
+    pthread_mutex_t lock;
   };
 
   /**
