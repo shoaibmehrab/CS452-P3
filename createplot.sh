@@ -16,7 +16,7 @@ if [ $# -eq 0 ]; then
 fi
 
 # Parse command-line options
-while getopts "hs:f:" arg; do
+while getopts "hs:f:" arg; doS
     case $arg in
         s) # The size of the array to sort
             size=${OPTARG}
